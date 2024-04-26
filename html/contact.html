@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./CSS/contact.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <title>TechShop</title>
+</head>
+<body>
+
+  <section>
+    <nav class="all-navbars">
+
+        <!-- First Navbar
+        <div class="navbar first-navbar">
+          <div class="navbar-left">
+            <img src="../img/icon/search.svg" class="navbar-icon" alt="Heart" />
+            Free Shipping for orders over ₹500
+          </div>
+          <div class="navbar-right">
+            <div class="navbar-section navbar-list">
+              About Us
+            </div>
+            <div class="navbar-section navbar-list" onclick="window.location.href = 'contact.html';">Contact Us</div>
+          </div>
+        </div> -->
+      
+        <!-- Second Navbar -->
+        <div class="navbar second-navbar">
+          <div class="navbar-left">
+            <div class="navbar-heading" onclick="window.location.href = 'index.html';">SnapCart</div>
+            <div class="search-bar-container">
+              <input type="text" class="search-bar" placeholder="Search..." />
+              <img src="../img/icon/search.svg" class="navbar-search-icon" alt="Search Icon" />
+            </div>
+          </div>
+          <div class="navbar-right">
+            <!-- Login Button -->
+            <div class="dropdown">
+              <i class="fa-solid fa-user dropbtn"></i>
+              <div class="dropdown-content">
+                <a href="login.html">Login</a>
+                <a href="signup.html">SignUp</a>
+              </div>
+            </div>
+            <!-- Add to Cart -->
+            <div class="navbar-section navbar-font">Favourites</div>
+          </div>
+        </div>
+        
+      
+        <!-- Third Navbar -->
+        <div class="navbar third-navbar">
+          <div class="navbar-left">
+            <div class="navbar-section-third" onclick="window.location.href = 'shopall.html';">Shop All</div>
+            <div class="navbar-section-third" onclick="window.location.href = 'Mobile.html';">Mobile</div>
+            <div class="navbar-section-third">Tablets</div>
+            <div class="navbar-section-third">Audio</div>
+            <div class="navbar-section-third">T.V & Home Cinema</div>
+            <div class="navbar-section-third">Drones & Cameras</div>
+            <div class="navbar-section-third">Wearables</div>
+            <div class="navbar-section-third">Sales</div>
+
+          </div>
+        </div>
+      </nav>
+</section>
+    <!-- Contact US -->
+    <Section>
+        <div class="contact-container">
+            <div class="form-box-contact">
+              <h2>Contact Us</h2>
+              <form>
+                <div class="form-group-contact">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group-contact">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group-contact">
+                  <label for="phone">Phone:</label>
+                  <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group-contact">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send</button>
+              </form>
+            </div>
+          </div>
+    </Section>
+
+
+</body>
+</html>

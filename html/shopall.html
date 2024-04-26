@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/shopall.css">
+    <link rel="icon" type="image/x-icon" href="../TechShop/img/1.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>SnapCart</title>
+</head>
+<body>
+
+    <section>
+        <nav class="all-navbars">
+
+            <!-- First Navbar
+            <div class="navbar first-navbar">
+              <div class="navbar-left">
+                <img src="./img/icon/package.svg" class="navbar-icon" alt="Heart" />
+                Free Shipping for orders over ₹500
+              </div>
+              <div class="navbar-right">
+                <div class="navbar-section navbar-list">
+                  About Us
+                </div>
+                <div class="navbar-section navbar-list" onclick="window.location.href = 'contect.html';">Contact Us</div>
+              </div>
+            </div> -->
+          
+            <!-- Second Navbar -->
+            <div class="navbar second-navbar">
+              <div class="navbar-left">
+                <div class="navbar-heading" onclick="window.location.href = 'index.html';">SnapCart</div>
+                <div class="search-bar-container">
+                  <input type="text" class="search-bar" placeholder="Search..." />
+                  <img src="../img/icon/search.svg" class="navbar-search-icon" alt="Search Icon" />
+                </div>
+              </div>
+              <div class="navbar-right">
+                <div class="navbar-section navbar-font" onclick="window.location.href = 'login.html';">Login</div>
+                <div class="navbar-section navbar-font">Favourites</div>
+              </div>
+            </div>
+          
+            <!-- Third Navbar -->
+            <div class="navbar third-navbar">
+              <div class="navbar-left">
+                <div class="navbar-section-third" onclick="window.location.href = 'shopall.html';">Shop All</div>
+                <div class="navbar-section-third" onclick="window.location.href = 'Mobile.html';">Mobile</div>
+                <div class="navbar-section-third">Tablets</div>
+                <div class="navbar-section-third">Audio</div>
+                <div class="navbar-section-third">T.V & Home Cinema</div>
+                <div class="navbar-section-third">Drones & Cameras</div>
+                <div class="navbar-section-third">Wearables</div>
+                <div class="navbar-section-third">Sales</div>
+
+              </div>
+            </div>
+          </nav>
+    </section>
+     <!-- New layout with two columns -->
+     <div class="main-content">
+        <div class="left-column">
+            <!-- Content for the left column (20%) goes here -->
+            <p class="all">All Products</p>
+            <p class="cet-shop">Best Sellers</p>
+            <p class="cet-shop">Computers</p>
+            <p class="cet-shop">Drones & Cameras</p>
+            <p class="cet-shop">Headphones</p>
+            <p class="cet-shop">Home Page Best Sellers</p>
+            <p class="cet-shop">Home Page Sale</p>
+            <p class="cet-shop">Mobile</p>
+            <P class="cet-shop">Sale</P>
+            <p class="cet-shop">Speakers</p>
+            <p class="cet-shop">Tablets</p>
+            <p class="cet-shop">TV & Home Cinema</p>
+            <p class="cet-shop">Wearable Tech</p>
+            <p class="Filter">Filter By</p>
+            <div class="slider"><input type="range" min="0" max="200" value="100" oninput="rangeValue.innerText = this.value"><p id="rangeValue">100</p></div> 
+   
+        </div>
+
+        <section class="right-column">
+          <div class="con">
+            <!-- Samsung -->
+            <img  class="Con-1 img-h" src="../img/shopall/Samsung/Samsung23 Ultra.png">
+            <h3>Samsung S23 Ultra</h3>
+            <p><b>Ram</b>: 12GB; <br><b>Storage</b>: 256GB,512GB; <br><b>Color</b>: Phantom Black</p>
+          </div>
+          <div class="con">
+            <img  class="Con-2 img-h" src="../img/shopall/Samsung/SamsungA54.png">
+            <h3>Samsung A54 5G</h3>
+            <p><b>Ram</b>: 8GB; <br><b>Storage</b>: 128GB,256GB; <br><b>Color</b>: Black, Light Green, Light Violet</p>
+          </div>
+          <div class="con">
+            <img  class="Con-3 img-h" src="../img/shopall/Samsung/SamsungA14.png">
+            <h3>Samsung A14 5G</h3>
+            <p><b>Ram</b>: 4GB,6GB,8GB; <br><b>Storage</b>: 64GB,128GB; <br><b>Color</b>: Black, Light Green, Dark Red</p>
+          </div>
+          <div class="con">
+            <img  class="Con-4 img-h" src="../img/shopall/Samsung/SamsungM34.png">
+            <h3 class="Con-p1">Samsung M34 5G</h3>
+            <p><b>Ram</b>: 6GB,8GB; <br><b>Storage</b>: 128GB,256GB; <br><b>Color</b>: Waterfall Blue, Midnight Blues, Prism Silver</p>
+          </div>         
+          <!-- Iphone -->
+          <div class="con">
+            <img  class="Con-5 img-h" src="../img/shopall/Apple/IPhone15 Pro Max.png">
+            <h3>IPhone 15 Pro Max</h3>
+            <p><b>Ram</b>: 8GB; <br><b>Storage</b>: 256GB, 512GB, 1TB; <br><b>Color</b>: Natural Titanium, Black Titanium, White Titanium</p>
+          </div>
+          <div class="con">
+            <img  class="Con-6 img-h" src="../img/shopall/Apple/Iphone 15 Plus.png">
+            <h3>IPhone 15 Plus</h3>
+            <p><b>Ram</b>: 6GB; <br><b>Storage</b>: 128GB, 256GB, 512GB; <br><b>Color</b>: Black, Blue, Green, Pink, Yellow</p>
+          </div>
+          <div class="con">
+            <img  class="Con-7 img-h" src="../img/shopall/Apple/IPhone 14 Pro Max.png">
+            <h3>IPhone 14 Pro Max</h3>
+            <p><b>Ram</b>: 6GB; <br><b>Storage</b>: 128GB, 256GB, 512GB, 1TB; <br><b>Color</b>: Space Black, Deep Purple, Gold, Silver</p>
+          </div>
+          <div class="con">
+            <img  class="Con-8 img-h" src="../img/shopall/Apple/IPhone 14 Plus.png">
+            <h3>IPhone 14 Plus</h3>
+            <p><b>Ram</b>: 6GB; <br><b>Storage</b>: 128GB, 256GB, 512GB; <br><b>Color</b>: Midnight, Blue, Purple, Red, Yellow</p>
+          </div>
+          <!-- OnePluse -->
+          <div class="con">
+            <img  class="Con-9 img-h" src="../img/shopall/OnePlus/oneplusnordce3lite.png">
+            <h3>oneplusnordce3lite</h3>
+            <p><b>Ram</b>: 16GB; <br><b>Storage</b>: 128GB, 256GB; <br><b>Color</b>: Chromatic Gray, Pastel Lime</p>
+          </div>
+          <div class="con">
+            <img  class="Con-10 img-h" src="../img/shopall/OnePlus/oneplus11.png">
+            <h3>OnePlus11</h3>
+            <p><b>Ram</b>: 8GB,16GB; <br><b>Storage</b>: 128GB, 256GB; <br><b>Color</b>: Eternal Green, Titan Black</p>
+          </div>
+          <div class="con">
+            <img  class="Con-11 img-h" src="../img/shopall/OnePlus/OnePlus10T 5G.png">
+            <h3>OnePlus10T</h3>
+            <p><b>Ram</b>: 8GB,16GB; <br><b>Storage</b>: 128GB, 256GB; <br><b>Color</b>: Moonstone Black, Jade Green</p>
+          </div>
+          <div class="con">
+            <img  class="Con-12 img-h" src="../img/shopall/OnePlus/OnePlusOpen.png">
+            <h3>OnePlusOpen</h3>
+            <p><b>Ram</b>: 16GB; <br><b>Storage</b>: 512GB; <br><b>Color</b>: Black, Green</p>
+          </div>
+          <!-- MI -->
+          <div class="con">
+            <img  class="Con-13 img-h" src="../img/shopall/mi/mi note 12.png">
+            <h3>Redmi Note 12 5G</h3>
+            <p><b>Ram</b>: 6GB, 8GB; <br><b>Storage</b>: 128GB, 256GB; <br><b>Color</b>: Frosted Green, Sunrise Gold, Matte Black</p>
+          </div>
+          <div class="con">
+            <img  class="Con-14 img-h" src="../img/shopall/mi/mi 11i.png">
+            <h3>Mi 11i</h3>
+            <p><b>Ram</b>: 6GB, 8GB; <br><b>Storage</b>: 128GB, 256GB; <br><b>Color</b>: Cosmic Black, Frosty White, Celestial Silver</p>
+          </div>
+          <div class="con">
+            <img  class="Con-15 img-h" src="../img/shopall/mi/mi 11 prime .png">
+            <h3>Redmi 11 Prime 5G</h3>
+            <p><b>Ram</b>: 4GB, 6GB; <br><b>Storage</b>: 64GB, 128GB; <br><b>Color</b>: Black, Chrome Silver, Meadow Green</p>
+          </div>
+          <div class="con">
+            <img  class="Con-16 img-h" src="../img/shopall/mi/mi 12 pro.png">
+            <h3>Xiaomi 12 Pro</h3>
+            <p><b>Ram</b>: 8GB, 12GB; <br><b>Storage</b>: 256GB, 512GB; <br><b>Color</b>: Couture Blue, Opera Mauve, Noir Black</p>
+          </div>
+          <!-- Vivo -->
+          <div class="con">
+            <img  class="Con-17 img-h" src="../img/shopall/Vivo/vivo x90 pro.png">
+            <h3>Vivo X90 Pro</h3>
+            <p><b>Ram</b>: 12GB; <br><b>Storage</b>: 256GB, 512GB; <br><b>Color</b>: China Red, Original Black</p>
+          </div>
+          <div class="con">
+            <img  class="Con-18 img-h" src="../img/shopall/Vivo/vivo v27 pro.png">
+            <h3>Vivo V27 Pro</h3>
+            <p><b>Ram</b>: 8GB, 12GB; <br><b>Storage</b>: 128GB, 256GB; <br><b>Color</b>: Noble Black, Magic Blue</p>
+          </div>
+          <div class="con">
+            <img  class="Con-19 img-h" src="../img/shopall/Vivo/Vivo Y56.png">
+            <h3>Vivo Y56 5G</h3>
+            <p><b>Ram</b>: 4GB, 8GB; <br><b>Storage</b>: 128GB; <br><b>Color</b>: Moonlight Symphony, Titanium Blue</p>
+          </div>
+          <div class="con">
+            <img  class="Con-20 img-h" src="../img/shopall/Vivo/Vivo Z7s.png">
+            <h3>Vivo iQOO Z7s 5G</h3>
+            <p><b>Ram</b>: 6GB, 8GB; <br><b>Storage</b>: 128GB; <br><b>Color</b>: Pacific Night, Norway Blue</p>
+          </div>
+          <!-- oppo -->
+          <div class="con">
+            <img  class="Con-21 img-h" src="../img/shopall/oppo/Oppo Find X5 Pro.png">
+            <h3>Oppo Find X5 Pro</h3>
+            <p><b>Ram</b>: 12GB; <br><b>Storage</b>: 256GB, 512GB; <br><b>Color</b>: Ceramic White, Emerald Green</p>
+          </div>
+          <div class="con">
+            <img  class="Con-22 img-h" src="../img/shopall/oppo/oppo reno 8 pro.png">
+            <h3>Oppo Reno 8 Pro</h3>
+            <p><b>Ram</b>: 8GB,12GB; <br><b>Storage</b>: 256GB; <br><b>Color</b>: Glazed Green,Underwater Blue, Vertigo Black</p>
+          </div>
+          <div class="con">
+            <img  class="Con-23 img-h" src="../img/shopall/oppo/A 53s.png">
+            <h3>Oppo A53s 5G</h3>
+            <p><b>Ram</b>: 6GB,8GB; <br><b>Storage</b>: 128GB; <br><b>Color</b>: Crystal Blue, Ink Black</p>
+          </div>
+          <div class="con">
+            <img  class="Con-24 img-h" src="../img/shopall/oppo/oppo K10.png">
+            <h3>Oppo K10 5G</h3>
+            <p><b>Ram</b>: 6GB,8GB; <br><b>Storage</b>: 128GB; <br><b>Color</b>: Galactic Blue, Neon Lime, Black Star </p>
+          </div>
+          <!-- Iqoo -->
+          <div class="con">
+            <img  class="Con-25 img-h" src="../img/shopall/Samsung/Samsung23 Ultra.png">
+            <h3>Title</h3>
+            <p>Add some Text</p>
+          </div>
+          <div class="con">
+            <img  class="Con-26 img-h" src="../img/shopall/Samsung/Samsung23 Ultra.png">
+            <h3>Title</h3>
+            <p>Add some Text</p>
+          </div>
+          <div class="con">
+            <img  class="Con-27 img-h" src="../img/shopall/Samsung/Samsung23 Ultra.png">
+            <h3>Title</h3>
+            <p>Add some Text</p>
+          </div>
+          <div class="con">
+            <img  class="Con-28 img-h" src="../img/shopall/Samsung/Samsung23 Ultra.png">
+            <h3>Title</h3>
+            <p>Add some Text</p>
+          </div>
+          <!-- Motorola -->
+          <div class="con">
+            <img  class="Con-29 img-h" src="../img/shopall/Samsung/Samsung23 Ultra.png">
+            <h3>Title</h3>
+            <p>Add some Text</p>
+          </div>
+          <div class="con">
+            <img  class="Con-30 img-h" src="../img/shopall/Samsung/Samsung23 Ultra.png">
+            <h3>Title</h3>
+            <p>Add some Text</p>
+          </div>
+          <div class="con">
+            <img  class="Con-29 img-h" src="../img/shopall/Samsung/Samsung23 Ultra.png">
+            <h3>Title</h3>
+            <p>Add some Text</p>
+          </div>
+          <div class="con">
+            <img  class="Con-29 img-h" src="../img/shopall/Samsung/Samsung23 Ultra.png">
+            <h3>Title</h3>
+            <p>Add some Text</p>
+          </div>
+          <!-- POCO -->
+          <div class="con">
+            <img  class="Con-29 img-h" src="../img/shopall/Samsung/Samsung23 Ultra.png">
+            <h3>Title</h3>
+            <p>Add some Text</p>
+          </div>
+          <div class="con">
+            <img  class="Con-29 img-h" src="../img/shopall/Samsung/Samsung23 Ultra.png">
+            <h3>Title</h3>
+            <p>Add some Text</p>
+          </div>
+          <div class="con">
+            <img  class="Con-29 img-h" src="../img/shopall/Samsung/Samsung23 Ultra.png">
+            <h3>Title</h3>
+            <p>Add some Text</p>
+          </div>
+          <div class="con">
+            <img  class="Con-29 img-h" src="../img/shopall/Samsung/Samsung23 Ultra.png">
+            <h3>Title</h3>
+            <p>Add some Text</p>
+          </div>
+          </section>
+    
+  
+</body>
+</html> 

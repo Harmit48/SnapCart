@@ -1,0 +1,403 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', 'Poppins', 'Ubuntu', sans-serif;
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Navbar.css */
+
+.all-navbars {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    padding: 0 8px 0 0;
+}
+
+.navbar-section {
+    margin: 16px;
+    cursor: pointer;
+}
+
+/* Add the new styles for the layout */
+.main-content {
+    display: flex;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.left-column {
+    width: 20%;
+    background-color: #c8c6c6c6;
+    padding: 20px;
+    margin-top: -20px;
+}
+
+.right-column {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c8c6c6c6;
+    margin-top: -20px;
+}
+
+.right-column .col {
+    flex: 1;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.all {
+    font-weight: 500;
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.all:hover {
+    animation-name: transform;
+    animation-duration: 3s;
+    transform: scale(1.1,1.1);
+}
+
+.cet-shop {
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.cet-shop:hover {
+    animation-name: transform;
+    animation-duration: 3s;
+    transform: scale(1.1,1.1);   
+}
+
+.Filter {
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+
+/*card*/
+.con {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 420px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.Con-1 {
+    width: 250px;
+    height: 250px;
+    padding-top: 10px;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.Con-2 {
+    width: 180px;
+    height: 230px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 55px;
+
+}
+
+.Con-3 {
+    width: 180px;
+    height: 230px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 55px;
+
+}
+
+.Con-4 {
+    width: 330px;
+    height: 270px;
+    padding-top: 0px;
+    align-items: center;
+    margin-left: -15px;
+
+}
+
+
+.Con-5 {
+    width: 300px;
+    height: 300px;
+    margin-top: -10px;
+    align-items: center;
+    padding-left: -10px;
+    margin-bottom: -40px;
+
+}
+
+.Con-6 {
+    width: 270px;
+    height: 250px;
+    margin-top: 10px;
+    align-items: center;
+    padding-left: 15px;
+    margin-bottom: -10px;
+
+}
+
+.Con-7 {
+    width: 330px;
+    height: 320px;
+    margin-top: -35px;
+    margin-left: -10px;
+    margin-bottom: -35px;
+}
+
+.Con-8 {
+    width: 240px;
+    height: 220px;
+    margin-top: 25px;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+.Con-9 {
+    width: 250px;
+    height: 250px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.Con-10 {
+    width: 250px;
+    height: 250px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.Con-11 {
+    width: 250px;
+    height: 250px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.Con-12 {
+    width: 250px;
+    height: 250px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.Con-13 {
+    width: 200px;
+    height: 250px;
+    padding-top: 25px;
+    align-items: center;
+    padding-left: 55px;
+
+}
+
+.Con-14 {
+    width: 250px;
+    height: 250px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.Con-15 {
+    width: 200px;
+    height: 250px;
+    padding-top: 25px;
+    align-items: center;
+    padding-left: 55px;
+
+}
+
+.Con-16 {
+    width: 200px;
+    height: 250px;
+    padding-top: 25px;
+    align-items: center;
+    padding-left: 50px;
+
+}
+
+.Con-17 {
+    width: 280px;
+    height: 280px;
+    padding-top: 0px;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.Con-18 {
+    width: 230px;
+    height: 250px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 35px;
+
+}
+
+.Con-19 {
+    width: 250px;
+    height: 250px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.Con-20 {
+    width: 210px;
+    height: 250px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 45px;
+
+}
+
+.Con-21 {
+    width: 200px;
+    height: 250px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 55px;
+
+}
+
+.Con-22 {
+    width: 200px;
+    height: 250px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 50px;
+    
+
+}
+
+.Con-23 {
+    width: 190px;
+    height: 250px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 55px;
+
+}
+
+.Con-24 {
+    width: 180px;
+    height: 250px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 60px;
+
+}
+
+.Con-25 {
+    width: 250px;
+    height: 250px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.Con-26 {
+    width: 250px;
+    height: 250px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.Con-27 {
+    width: 250px;
+    height: 250px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.Con-28 {
+    width: 250px;
+    height: 250px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.Con-29 {
+    width: 250px;
+    height: 250px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.Con-30 {
+    width: 250px;
+    height: 250px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.con h3 {
+    padding-left: 20px;
+}
+
+.Con-p1 {
+    margin-top: -5px;
+}
+
+.con p {
+    padding-left: 20px;
+    margin-top:  -10px;
+}
+
+.img-h {
+    transition: transform 0.5s ease-in-out;
+}
+
+.img-h:hover {
+    transform: scale(1.1,1.1);
+}
+

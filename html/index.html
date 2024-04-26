@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="icon" type="image/x-icon" href="../img/1.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/dda0f97203.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.css" />
+  <title>SnapCart</title>
+</head>
+
+<body>
+  <section data-scroll-container>
+
+    <section>
+      <nav class="all-navbars">
+
+        <!-- First Navbar -->
+        <div class="navbar first-navbar">
+          <div class="navbar-left">
+            <img src="../img/icon/search.svg" class="navbar-icon" alt="Heart" />
+            Free Shipping for orders over ₹500
+          </div>
+          <div class="navbar-right">
+            <div class="navbar-section navbar-list">
+              About Us
+            </div>
+            <div class="navbar-section navbar-list" onclick="window.location.href = 'contact.html';">Contact Us</div>
+          </div>
+        </div>
+
+        <!-- Second Navbar -->
+        <div class="navbar second-navbar">
+          <div class="navbar-left">
+            <div class="navbar-heading" onclick="window.location.href = 'index.html';">SnapCart</div>
+            <div class="search-bar-container">
+              <input type="text" class="search-bar" placeholder="Search..." />
+              <img src="../img/icon/search.svg" class="navbar-search-icon" alt="Search Icon" />
+            </div>
+          </div>
+          <div class="navbar-right">
+            <!-- Login Button -->
+            <div class="dropdown">
+              <img class="dropbtn" src="../img/user.png">
+              <div class="dropdown-content">
+                <a href="login.html">Login</a>
+                <a href="signup.html">SignUp</a>
+              </div>
+            </div>
+            <!-- Add to Cart -->
+            <img class="cartbtn" src="../img/add to cart icon.png">
+          </div>
+        </div>
+
+
+        <!-- Third Navbar -->
+        <div class="navbar third-navbar">
+          <div class="navbar-left">
+            <div class="navbar-section-third" onclick="window.location.href = 'shopall.html';">Shop All</div>
+            <div class="navbar-section-third" onclick="window.location.href = 'Mobile.html';">Mobile</div>
+            <div class="navbar-section-third">Tablets</div>
+            <div class="navbar-section-third">Audio</div>
+            <div class="navbar-section-third">T.V & Home Cinema</div>
+            <div class="navbar-section-third">Drones & Cameras</div>
+            <div class="navbar-section-third">Wearables</div>
+            <div class="navbar-section-third">Sales</div>
+
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Main Page -->
+    <!-- <section class="home-section">
+      <img class="background-section" src="./img/laptop.png" alt="">
+      <p class="home-best-price">Best Price</p>
+      <h1 class="home-heading">Incredible Prices on All Your Favorite Items</h2>
+      <p class="home-details">Get more for less on selected brands</p>
+      <button class="home-button">Show Now</button>
+    </section> -->
+
+    <section class="Section-top">
+      <div class="content">
+        <h1 data-scroll data-scroll-speed="3">Find The Best Deal <br>& Order Now</h1>
+        <a href="#" data-scroll data-scroll-speed="2">Shop Now</a>
+      </div>
+    </section>
+
+
+    <section class="image-section">
+      <div class="image-container" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3">
+        <img class="image-left" src="../img/Phone-left-side.webp" alt="Left Image">
+        <div class="text-overlay-left">
+          <p class="offer-title-1">Holiday Deals</p>
+          <h1 class="offer-heading-1">Up to <br> 30% off</h1>
+          <p class="offer-details-1">Selected Smartphone Brands</p>
+          <button class="offer-button offer-button-left">Show Now</button>
+        </div>
+      </div>
+      <div class="image-container" data-scroll data-scroll-direction="horizontal" data-scroll-speed="2">
+        <img class="image-right" src="../img/headphone-right-side.webp" alt="Right Image">
+        <div class="text-overlay-right">
+          <p class="offer-title-2">Just In</p>
+          <h1 class="offer-heading-2">Take Your Sound Anywhere</h1>
+          <p class="offer-details-2">Top Headphone Brands</p>
+          <button class="offer-button offer-button-right">Show Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-section">
+      <div class="container-section" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3">
+        <div class="row-section">
+          <div class="col-section">
+            <i><img class="service-icon" src="../img/icon/pickup.svg" /></i>
+            <p class="service-details"></p>Curb-side pickup</p>
+          </div>
+          <div class="col-section">
+            <i><img class="service-icon" src="../img/icon/box.svg" /></i>
+            <p class="service-details"></p>Free Shipping for orders over ₹500</p>
+          </div>
+          <div class="col-section">
+            <i><img class="service-icon" src="../img/icon/bill.svg" /></i>
+            <p class="service-details"></p>Low prices guaranteed</p>
+          </div>
+          <div class="col-section">
+            <i><img class="service-icon" src="../img/icon/time.svg" /></i>
+            <p class="service-details"></p>Available to you 24/7</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shop By Category -->
+
+    <section class="shop-cat-section">
+      <div class="shop-container">
+        <h1 class="shop-cat-heading">Shop by Category</h1>
+        <div class="shop-row">
+          <div class="shop-col-1">
+            <div class="shop-cat-2"><img src="../img/computer.png" alt="" class="shop-cat-1"></div>
+            <p class="shop-cat-details">Computer</p>
+          </div>
+          <div class="shop-col-1">
+            <div class="shop-cat-2"><img src="../img/mobile.png" alt="" class="shop-cat-5"></div>
+            <p class="shop-cat-details">Mobile</p>
+          </div>
+          <div class="shop-col-1">
+            <div class="shop-cat-2"><img src="../img/drones.png" alt="" class="shop-cat-1"></div>
+            <p class="shop-cat-details">Drones & Cameras</p>
+          </div>
+          <div class="shop-col-1 sale-tag">
+            <div class="shop-cat-2" style="background-color: rgba(116,30,254,255);">
+              <img src="../img/sale-tag.png" alt="" class="shop-cat-img">
+            </div>
+            <p class="shop-cat-details ">Sale</p>
+          </div>
+          <div class="shop-col-1">
+            <div class="shop-cat-2"><img src="../img/tablets.png" alt="" class="shop-cat-1"></div>
+            <p class="shop-cat-details">Tablets</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="shop-container shop-cat-container">
+        <div class="shop-row">
+          <div class="shop-col-1">
+            <div class="shop-cat-2"><img src="../img/tv.png" alt="" class="shop-cat-3"></div>
+            <p class="shop-cat-details">T.V & Home Cinema</p>
+          </div>
+          <div class="shop-col-1">
+            <div class="shop-cat-2"><img src="../img/tv.png" alt="" class="shop-cat-7"></div>
+            <p class="shop-cat-details">T.V & Home Cinema</p>
+          </div>
+          <div class="shop-col-1">
+            <div class="shop-cat-2"><img src="../img/wearable.png" alt="" class="shop-cat-1"></div>
+            <p class="shop-cat-details">Wearable Tech</p>
+          </div>
+          <div class="shop-col-1">
+            <div class="shop-cat-2"><img src="../img/speaker-1.png" alt="" class="shop-cat-1"></div>
+            <p class="shop-cat-details">Speakers</p>
+          </div>
+          <div class="shop-col-1">
+            <div class="shop-cat-2"><img src="../img/headphones.png" alt="" class="shop-cat-4"></div>
+            <p class="shop-cat-details">Headphone</p>
+          </div>
+        </div>
+        <br><br><br><br>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>This is a responsive footer.</p>
+      </div>
+    </footer>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
